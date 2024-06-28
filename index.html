@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body style="font-family: Arial, sans-serif;" class="h-screen bg-gray-200 flex justify-center items-center">
+    <div
+        class="border-2 border-white flex flex-col bg-fuchsia-800 gap-4 items-center justify-center p-4 lg:p-8 xl:p-16">
+        <h1 class="text-white text-center text-2xl xl:text-4xl font-semibold py-2">Tic Tac Toe Game</h1>
+        <h2 id="result" class="text-gray-200 text-lg xl:text-xl py-2 xl:py-4">NEW GAME</h2>
+        <div
+            class="game grid grid-flow-row grid-cols-3 text-gray-800 text-2xl xl:text-4xl py-2 xl:py-4 gap-2 xl:gap-4 font-bold">
+            <button class="box w-16 h-16 xl:w-24 xl:h-24 bg-yellow-300 rounded-lg shadow-lg"></button>
+            <button class="box w-16 h-16 xl:w-24 xl:h-24 bg-yellow-300 rounded-lg shadow-lg"></button>
+            <button class="box w-16 h-16 xl:w-24 xl:h-24 bg-yellow-300 rounded-lg shadow-lg"></button>
+            <button class="box w-16 h-16 xl:w-24 xl:h-24 bg-yellow-300 rounded-lg shadow-lg"></button>
+            <button class="box w-16 h-16 xl:w-24 xl:h-24 bg-yellow-300 rounded-lg shadow-lg"></button>
+            <button class="box w-16 h-16 xl:w-24 xl:h-24 bg-yellow-300 rounded-lg shadow-lg"></button>
+            <button class="box w-16 h-16 xl:w-24 xl:h-24 bg-yellow-300 rounded-lg shadow-lg"></button>
+            <button class="box w-16 h-16 xl:w-24 xl:h-24 bg-yellow-300 rounded-lg shadow-lg"></button>
+            <button class="box w-16 h-16 xl:w-24 xl:h-24 bg-yellow-300 rounded-lg shadow-lg"></button>
+        </div>
+        <button id="reset-btn" class="text-sm xl:text-base bg-slate-100 text-gray-800 px-6 xl:px-8 py-1.5 xl:py-2.5 my-2 xl:my-4 shadow-2xl border-2 border-teal-200 
+            active:translate-x-1 active:translate-y-1 duration-150">Reset</button>
+    </div>
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>
